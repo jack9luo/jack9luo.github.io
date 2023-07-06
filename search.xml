@@ -559,7 +559,7 @@
       <link href="/posts/9e27e58c.html"/>
       <url>/posts/9e27e58c.html</url>
       
-        <content type="html"><![CDATA[<h1>局域网内使用FileZilla共享数据</h1><h2 id="使用效果">使用效果</h2><h2 id="使用步骤">使用步骤</h2><p>1、先检查两台主机是否可以ping通</p><p>2、确认被连接的那台电脑安装了OPENSSH服务器，一般电脑是不安装的，</p><p>3、在终端打开服务器</p><p>4、在软件内输入ip+用户名+密码+端口即可连接</p>]]></content>
+        <content type="html"><![CDATA[<h1>局域网内使用FileZilla共享数据</h1><h2 id="使用效果">使用效果</h2><h2 id="使用步骤">使用步骤</h2><p>1、先检查两台主机是否可以ping通</p><p>2、确认被连接的那台电脑安装了OPENSSH服务器，一般电脑是不安装的。检查安装之后，需要检查服务器是否启动</p><ul><li>打开控制面板</li><li>选择「管理工具」</li><li>选择「服务」</li><li>在列表中查找「OpenSSH 服务」</li><li>检查该服务的状态是否为「启动」。</li></ul><p>3、在软件内输入ip+用户名+密码+端口即可连接</p><p>4.协议一定选择SFTP，因为在未安装FTP的服务器上，只能选择这个协议进行传输文件；</p>]]></content>
       
       
       <categories>
