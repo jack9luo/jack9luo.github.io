@@ -555,23 +555,23 @@
     
     
     <entry>
-      <title>算法课程</title>
-      <link href="/posts/2ed55c05.html"/>
-      <url>/posts/2ed55c05.html</url>
+      <title>局域网内使用FileZilla共享数据</title>
+      <link href="/posts/9e27e58c.html"/>
+      <url>/posts/9e27e58c.html</url>
       
         <content type="html"><![CDATA[<h1>局域网内使用FileZilla共享数据</h1><h2 id="使用效果">使用效果</h2><h2 id="使用步骤">使用步骤</h2><p>1、先检查两台主机是否可以ping通</p><p>2、确认被连接的那台电脑安装了OPENSSH服务器，一般电脑是不安装的，</p><p>3、在终端打开服务器</p><p>4、在软件内输入ip+用户名+密码+端口即可连接</p>]]></content>
       
       
       <categories>
           
-          <category> 算法题 </category>
+          <category> 共享数据 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> c++、算法 </tag>
+            <tag> 共享数据 </tag>
             
         </tags>
       
@@ -1781,9 +1781,9 @@
       
         <tags>
             
-            <tag> 外挂标签 </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> 外挂标签 </tag>
             
         </tags>
       
