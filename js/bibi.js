@@ -3,7 +3,7 @@ let total = 0
 let nowNum = 0
 let items = []
 let page = 1
-let Url = '' // 记住替换为你的API链接
+let Url = 'http://118.178.233.237:5230/api/v1/memo?openId=7f4c6b5e-4d9c-48c2-a416-b5f18dbc7c00' // 记住替换为你的API链接
 
 
 window.addEventListener('DOMContentLoaded', () => {
