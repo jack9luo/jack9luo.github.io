@@ -6,7 +6,7 @@
   <link href="https://qzl.luoxiaohei.fun/atom.xml" rel="self"/>
   
   <link href="https://qzl.luoxiaohei.fun/"/>
-  <updated>2023-10-09T04:52:24.508Z</updated>
+  <updated>2023-08-24T03:50:13.411Z</updated>
   <id>https://qzl.luoxiaohei.fun/</id>
   
   <author>
@@ -15,146 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-10-09T04:52:24.508Z</published>
-    <updated>2023-10-09T04:52:24.508Z</updated>
-    
-    <content type="html"><![CDATA[<p>​一个月5000块钱，不多也不少，相比于其他地方，有好的也有坏的。如果我不干，导师一定会杂七杂八的劝我，还可能闹掰。</p><p>​但是，我现在就要做决定，因为合同一旦签了，那就没有反悔的机会了，</p><p>​如果我干，那我这一年一半的时间都在代课中度过，非常的浪费时间，而且准备我需要准备的东西又很难静下心来准备。（我担心我这样迷迷糊糊到了明年下半年就什么都不会了）（研究生是学生阶段，还是以学习为主）（这个工作并不是在学习而是单纯为了赚钱）（虽然老师说要教我东西，但是以这些天的相处来看，并不太可能会教我，因为他有很多自己的事情要做）</p><p>​如果我不干，我要自己在学校安排好自己的学习任务，自己开始学习，继续要爸妈的生活费，生活可能滋润一些，学习压力也会小一些，但是爸妈的压力会大一些。</p><p>​总结：</p><p>干：</p><p>​经济压力小一些，学习压力大一些，</p><p>不干：</p><p>​经济压力大一些，学习压力小一些</p><p>干一年的话到明年6月底，期间要把项目搞好，省考之类的可以会学校再弄，如果干：要自己调整好时间，把代课的精力放小一点，把学习的时间精力留多一些</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;​		一个月5000块钱，不多也不少，相比于其他地方，有好的也有坏的。如果我不干，导师一定会杂七杂八的劝我，还可能闹掰。&lt;/p&gt;
-&lt;p&gt;​		但是，我现在就要做决定，因为合同一旦签了，那就没有反悔的机会了，&lt;/p&gt;
-&lt;p&gt;​		如果我干，那我这一年一半的时间都在代课中度过，</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-10-08T12:21:32.695Z</published>
-    <updated>2023-10-08T12:23:41.865Z</updated>
-    
-    <content type="html"><![CDATA[<p>别对自己的长辈说浮夸的东西</p><p>年龄大的人越是讨厌这些东西，说自己朋友怎么怎么样，自己怎么怎么样</p><p>这些都是不切实际的且惹人讨厌的，对待重要的人最重要的就是真诚。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;别对自己的长辈说浮夸的东西&lt;/p&gt;
-&lt;p&gt;年龄大的人越是讨厌这些东西，说自己朋友怎么怎么样，自己怎么怎么样&lt;/p&gt;
-&lt;p&gt;这些都是不切实际的且惹人讨厌的，对待重要的人最重要的就是真诚。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-09-04T01:14:42.141Z</published>
-    <updated>2023-09-04T01:14:42.141Z</updated>
-    
-    <content type="html"><![CDATA[<h1>redis</h1><h2 id="什么是redis？">什么是redis？</h2><p>是基于内存存储的key-value数据库，mysql数据存在磁盘上的，通常一些常用的数据就会用到redis</p><h2 id="redis入门">redis入门</h2><h3 id="redis简介">redis简介</h3><p>一个开源的基于内存来处理缓存数据库，和消息中间件。</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225654292.png" alt="image-20230902225654292"></p><h3 id="redis安装">redis安装</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225827968.png" alt="image-20230902225827968"></p><p>给redis设置密码保证redis的安全性</p><p>在redis.conf中：</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230039379.png" alt="image-20230902230039379"></p><h3 id="redis服务启动和停止">redis服务启动和停止</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230143734.png" alt="image-20230902230143734"></p><p>给redis设置远程连接</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230303187.png" alt="image-20230902230303187"></p><h2 id="redis的数据类型">redis的数据类型</h2><h3 id="5种数据类型介绍">5种数据类型介绍</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230409198.png" alt="image-20230902230409198"></p><h2 id="redis的常用命令">redis的常用命令</h2><p>使用这些命令操作redis的数据。</p><h4 id="string">string</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903104840101.png" alt="image-20230903104840101"></p><h4 id="hash">hash</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105143381.png" alt="image-20230903105143381"></p><h4 id="list">list</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105704703.png" alt="image-20230903105704703"></p><h4 id="set">set</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105838114.png" alt="image-20230903105838114"></p><h4 id="通用命令">通用命令</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105857816.png" alt="image-20230903105857816"></p><h2 id="java中操作Redis">java中操作Redis</h2><h4 id="Spring-Data-redis">Spring Data redis</h4><p>Spring对redis客户端做了整合，提供了Spring Data Reids，在spring boot项目中提供了对应的接口starter，即spring-boot-starter-data-redis</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903110450233.png" alt="image-20230903110450233"></p><p>使用redisTamplate操作各种redis数据方法详见：[redis](D:\study_key\postgraduate\JAVA\java\8、黑马程序员瑞吉外卖平台实战开发\瑞吉外卖-资料\4 Redis课程\代码\springdataredis_demo\src\test\java\com\itheima\test\SpringDataRedisTest.java)</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;redis&lt;/h1&gt;
-&lt;h2 id=&quot;什么是redis？&quot;&gt;什么是redis？&lt;/h2&gt;
-&lt;p&gt;是基于内存存储的key-value数据库，mysql数据存在磁盘上的，通常一些常用的数据就会用到redis&lt;/p&gt;
-&lt;h2 id=&quot;redis入门&quot;&gt;redis入门&lt;/h2&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-08-26T07:26:32.402Z</published>
-    <updated>2023-08-26T08:37:03.552Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们知道重装系统可以解决99%的电脑问题，今天就让我来帮大家成为修电脑大神，以后再也不用找渣男帮修电脑啦！</p><p>首先，我们只需要一个大于8GB的U盘，然后在浏览器中搜索windows，</p><p>制作好u盘启动器之后呢，我们就要正式开始修电脑啦！</p><p>第一步我们要去百度问一下我们电脑是按哪个键进入电脑的BIOS软件的，我已经总结好啦，大家可以对照一下</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230826125505941.png" alt="image-20230826125505941">jv</p><p>然后把u盘插入你要重装系统的电脑里，在开机的时候一直按进入BIOS的键就好啦，</p><p>进入BIOS之后，把我们的u盘作为启动盘就可以啦，只需要移动一下就可以了，</p><p>重新启动之后我们就进入了新的系统里面啦，接下来的设置就就按照个人喜好啦！</p><p>好啦，我的分享就到此结束啦，感觉大家观看，希望大家都能成为电脑大咖！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;我们知道重装系统可以解决99%的电脑问题，今天就让我来帮大家成为修电脑大神，以后再也不用找渣男帮修电脑啦！&lt;/p&gt;
-&lt;p&gt;首先，我们只需要一个大于8GB的U盘，然后在浏览器中搜索windows，&lt;/p&gt;
-&lt;p&gt;制作好u盘启动器之后呢，我们就要正式开始修电脑啦！&lt;/p&gt;
-&lt;p</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-08-25T04:05:19.883Z</published>
-    <updated>2023-08-25T04:05:19.884Z</updated>
-    
-    <content type="html"><![CDATA[<p>开学就研二了，这一年必定在为了毕业秋招的路上奔波吧</p><p>想多了全是问题，做多了全是答案！</p><p>先整理好自己未来要面对问题：</p><p>1、互联网秋招，准备八股文和项目</p><p>2、公务员考试，国考省考等</p><p>3、学习深度学习，为后面毕业论文做准备</p><p>4、软考</p><p>这三件事才是这一年的重点，让自己有核心竞争力！</p><p>学习方案</p><p>回学校以最快方式调整状态，开始学习，6+1形式学习，周六放松玩，周一到周五周日学习。周六复盘。</p><p>想多了全是问题，做多了全是答案！💪</p><p>研二的计划📆：</p><p>1️⃣ 互联网秋招🌐：全武装，准备面试常见的八股文和实战项目！</p><p>2️⃣ 公务员考试🏛️：国考、省考、烟草、电网、事业单位，要了解报考人数和待遇！</p><p>3️⃣ 深度学习🤖：为毕业论文打下坚实基础！</p><p>4️⃣ 软考🖥️：提升自己，不留遗憾！</p><p>🎯这三件事才是这一年的重点，让自己有核心竞争力！</p><p>🌟 学习策略 🌟：</p><p>回到学校，迅速调整状态，戒掉手机，6+1学习法，专注学习6天，给自己放松的1天！每个周六都是放松和复盘的日子。</p><p>宝贝们，新的学期，新的开始，我们一起加油，为未来的自己努力吧！点赞❤️和收藏🔖，与我同行！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;开学就研二了，这一年必定在为了毕业秋招的路上奔波吧&lt;/p&gt;
-&lt;p&gt;想多了全是问题，做多了全是答案！&lt;/p&gt;
-&lt;p&gt;先整理好自己未来要面对问题：&lt;/p&gt;
-&lt;p&gt;1、互联网秋招，准备八股文和项目&lt;/p&gt;
-&lt;p&gt;2、公务员考试，国考省考等&lt;/p&gt;
-&lt;p&gt;3、学习深度学习，为后面毕</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-08-25T01:56:40.170Z</published>
-    <updated>2023-08-25T01:56:40.170Z</updated>
-    
-    <content type="html"><![CDATA[<h1>昨日消极复盘</h1><p>昨天其实应该是很开心的 ，以为我心心念念的六级考过了，紫玲也考过了科目二，还去吃了肯德基。</p><p>但是，晚上，紫玲责怪我写的信不好，原因是我七夕送了一封吐槽她的信。然后甩下话睡觉去了，留我一个人反思着自己。</p><p>对于这件事情，我有自己的看法：那天晚上，你说想要我写信给你，我没答应，但是我想着还是写一封，所以这封信是那天晚上写的。那上面的“吐槽”的事情其实是对我印象比较深的事情，也是这种事情，让我对你的认识更加深刻，你的形象在我心中也更加生动。当时写这封信并没有想着七夕给你，到了七夕那天，我除了发红包之外，没有想到送什么礼物比较好，所以索性把这封信带上。以为能让你开心。</p><p>所以，我以为好的东西别人可能不会觉得好，以为我不知道别人真正需要的东西。</p><p>经过漫长的熬夜，我也知道自己不能因为这种小事就郁郁不得志，自己不能这么容易被影响。就算受到影响也要及时走出来，想明白了之后可以通过转移注意力来解决，一直郁郁寡欢真的很亏啊。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;昨日消极复盘&lt;/h1&gt;
-&lt;p&gt;昨天其实应该是很开心的 ，以为我心心念念的六级考过了，紫玲也考过了科目二，还去吃了肯德基。&lt;/p&gt;
-&lt;p&gt;但是，晚上，紫玲责怪我写的信不好，原因是我七夕送了一封吐槽她的信。然后甩下话睡觉去了，留我一个人反思着自己。&lt;/p&gt;
-&lt;p&gt;对于这件事情</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>6级备考</title>
@@ -201,11 +61,11 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://qzl.luoxiaohei.fun/posts/0.html"/>
-    <id>https://qzl.luoxiaohei.fun/posts/0.html</id>
-    <published>2023-08-11T11:59:53.888Z</published>
-    <updated>2023-08-24T03:50:13.409Z</updated>
+    <title>唠叨</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/317894.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/317894.html</id>
+    <published>2023-08-19T17:27:22.000Z</published>
+    <updated>2024-09-23T08:40:16.058Z</updated>
     
     <content type="html"><![CDATA[<h1>和任何人的比较、都是在内耗自己、让自己迷失在找不到希望的迷宫里。</h1><p>今天我妈拿出了20w的存款给我看，告诉我家里有钱，当时我还是觉得有点少，因为我对家里的钱并没有很确切的概念，在我印象中，钱的多少对我影响没有很大，但是我知道，以后没有爸妈保护下，钱的多少是很重要的事情，所以我需要尽快养成对钱的敏感度，合理安排钱和钱生钱。</p><p>我妈拿出钱是因为害怕我担心家里没钱娶老婆，其实我不担心，只是对于婚姻来说，我认为不是儿戏，对我，对所有人都是一个冒险，我怕我不能承担这样的风险。我认为以后的生活是一步一步在精明的计划中实现的，我需要更加有洞穿未来的眼光。</p><p>我妈跟我说我哥花了多少钱我就有多少钱，我哥买房200多w，装修60w，彩礼、结婚这些加起来，在我哥身上花了300w。所以爸妈打算给我在省内买一个100多w的房子，中大城的房子给我。这样房子装修差不多，再给我买一辆车。这样就弄的差不多。</p><p>我知道，这些都是大人们的事情，不需要担心和怀疑，我最重要的还是管好自己的事情，让自己有潜力，有能力。所以，不要想太多，专心发展自己才是王道。</p><p>男人到了中年，要有的“城府”：<br>1、不和亲戚一起去旅游。</p><p>2、经常把手机扣在桌子上。</p><p>3、不往烟灰缸里面倒水。</p><p>4、聊天，一问一答式的对话，要懂得早点离开。</p><p>5、帮子女带孩子，3缺1，谁打电话也不去。</p><p>6、看到邻居脸色不好，不要问怎么了，打声招呼，就匆匆离开。</p><p>7、亲戚请帮忙办事，不要表现出很容易，反而要装作不好办。</p><p>8、理发不说剪短点。</p><p>9、生病了，或者身体不好，不串门。</p><p>10、别让子女和朋友一起去考驾照，就怕先拿到驾照。</p><p>11、经常对别人说谢谢，很重要。</p><p>12、别人请客，晚5分钟再去。</p><p>13、被别人夸赞的时候，适当的暴露自己的不足。</p><p>14、不和年轻人混在一起，那是找难受。</p><p>15、帮不上忙的事，不要问别人的事情进展。</p><p>16、远离少妇，远离离了婚的女人。</p><p>17、在医院，护士对你不客气，但你要对护士客气。</p><p>18、别拿扫把打人，哪怕是开玩笑的也不行。</p><p>19、组局，快要买单的时候不要去上厕所。</p><p>20、别人送自己的鞋子，哪怕九成新，最好也别要。</p><p>21、领导总是当众夸你，你一定要小心，捧杀才是最可怕的。</p><p>22、不和子女说自己这一辈子的恩怨，没必要延续下去。</p><p>23、父母年纪大了，烦心的事，不能和他们说。</p><p>24、两个人睡觉，真的没必要放三个枕头。</p><p>25、尽量不住在别人家里，没人愿意被打扰。</p><p>26、遇到搭顺风车的，一次是人情，连续第2次，就要远离。</p><p>27、朋友的离去，不问，不内耗，这是价值考量的结果。</p><p>28、在别人的车上，不乱说话，行车记录仪很可怕。</p><p>29、问了两次都没回答，对方已经给了答案。</p><p>30、凡事留一手，以备不时之需。</p><p>31、千人千面，对待不同的人，需要不同的态度。</p><p>32、只要有一个客人没放大筷子，主人就不能说吃好了。</p><p>33、少发朋友圈，总有一些人在研究你。</p><p>34、一定要会说客气话，虽然很虚，但是人人爱听。</p><p>35、别人发的红包或者转账，等几分钟再送。</p><p>36、朋友接电话的时候，要和他保持一定的距离，电话总会涉及到一些个人隐私。</p><p>37、别想着躺平，趁着有限的时间，赶紧多挣钱。</p><p>38、场面话一定要会说，酒桌上没有几句场面话，很难合群。</p><p>39、在外面要说谎，在家里也要说谎，善意的谎言，家庭才能够更和谐。</p><p>40、老家的房子不要丢，哪怕你很有钱。</p><p>41、控制好自己的情绪，这样才能不被别人利用。</p><p>42、不舒服的事情，就要拒绝，别做老好人。</p><p>43、赚钱的事情，要懂得闷声发大财。</p><p>44、人到中年，心里一定要能装事，别口无遮拦。</p>]]></content>
     
@@ -218,6 +78,8 @@
     
     
     
+    
+    <category term="随口说" scheme="https://qzl.luoxiaohei.fun/tags/%E9%9A%8F%E5%8F%A3%E8%AF%B4/"/>
     
   </entry>
   
@@ -418,6 +280,170 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>WIN11如何使用Outlook管理邮箱</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/352556f9.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/352556f9.html</id>
+    <published>2023-07-10T10:30:19.000Z</published>
+    <updated>2023-08-04T03:25:38.663Z</updated>
+    
+    <content type="html"><![CDATA[<h1>WIN11如何使用Outlook管理邮箱</h1><blockquote><p>平时接收邮箱都是在网页端登录，这样不方便且没有提示。</p><p>之后我看到可以使用windows mail管理，但是也没有提示，所以我转向使用outlook了，先说优点：有提示音。</p><p>缺点：最小化托管功能局限。</p></blockquote><h2 id="1、添加账户">1、添加账户</h2><table><thead><tr><th><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230710093018665.png" alt="image-20230710093018665"></th></tr></thead></table><h2 id="2、输入账号并手动设置">2、输入账号并手动设置</h2><table><thead><tr><th><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230710093109447.png" alt=""></th></tr></thead></table><p>3、选择IMAP协议</p><table><thead><tr><th><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230710093316697.png" alt="image-20230710093316697"></th></tr></thead></table><p>4、输入密码，==注意是IMAP的密钥==，不是邮件的密码</p><table><thead><tr><th><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230710093356546.png" alt="image-20230710093356546"></th></tr></thead></table><p>5、获取密钥在你的邮件设置中可以找到</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;WIN11如何使用Outlook管理邮箱&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;平时接收邮箱都是在网页端登录，这样不方便且没有提示。&lt;/p&gt;
+&lt;p&gt;之后我看到可以使用windows mail管理，但是也没有提示，所以我转向使用outlook了，先说优点：有提示音。&lt;/</summary>
+      
+    
+    
+    
+    <category term="outlook" scheme="https://qzl.luoxiaohei.fun/categories/outlook/"/>
+    
+    
+    <category term="outlook" scheme="https://qzl.luoxiaohei.fun/tags/outlook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7.7 - 7.8 武功山旅行日记</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/79f8df14.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/79f8df14.html</id>
+    <published>2023-07-03T23:43:34.000Z</published>
+    <updated>2023-07-08T15:42:19.580Z</updated>
+    
+    <content type="html"><![CDATA[<h1>7.7 - 7.8 武功山旅行日记</h1><blockquote><p>往返火车票</p><table><thead><tr><th><img src="https://s2.loli.net/2023/07/08/PY5zjfo8edZixhG.png" alt="IMG_4778.png"></th><th><img src="https://s2.loli.net/2023/07/08/wKYiHdM9mN1ynuA.png" alt="IMG_4779.png"></th></tr></thead></table><p>火车4点到萍乡，从萍乡坐的士大约一个小时到游客中心，这里的司机不得不说开的飞快，没有安全感，甚至违反交通，还有带我们去贵的超市买东西- _ -。到了游客中心，我们买了票，坐了免费的游客大巴到山脚下，山脚下的紫玲：</p><p><img src="https://s2.loli.net/2023/07/08/T5mtsLpjlE3UzN8.jpg" alt="IMG_4663.jpeg"></p><p>我们带了很多东西，负重前行，从山脚爬到一级索道用时3个小时（17：00 - 20：00），并看到了日落，两个人比了个耶：</p><p><img src="https://s2.loli.net/2023/07/08/yQwM9g2v4YWTSOj.jpg" alt="IMG_4675.jpeg"></p><iframe src="//player.bilibili.com/player.html?aid=615745337&bvid=BV16h4y1E7kG&cid=1189838338&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>到了一级索道，我们已经累趴下了，所以我们打算休整一下，等到凌晨2-3点再爬，这是我们的休整点：</p><p><img src="https://s2.loli.net/2023/07/08/IRzrAXo6KhDncTN.jpg" alt="IMG_4704.jpeg"></p><p>到了凌晨2：30，我们开始往上爬啦！</p><table><thead><tr><th><img src="https://s2.loli.net/2023/07/08/CK7PuZQtM9WwY5c.jpg" alt="IMG_4712.jpeg"></th><th><img src="https://s2.loli.net/2023/07/08/BDCJ8hbl5dsAKyQ.jpg" alt="IMG_4715.jpeg"></th></tr></thead></table><p>经过千辛万苦的两个半小时，我们终于到了金顶！找了一个位置坐着拍了日出：</p><table><thead><tr><th><img src="https://s2.loli.net/2023/07/08/ldQ3mivGMK51IhH.jpg" alt="20230708233746.jpg"></th><th><img src="https://s2.loli.net/2023/07/08/gtfNbS3CdrpB1TY.jpg" alt="20230708233735.jpg"></th></tr></thead></table><p>同时，我们也看到了云海！</p><table><thead><tr><th><img src="https://s2.loli.net/2023/07/08/gd5C4aS81FyQqwJ.jpg" alt="20230708233751.jpg"></th><th><img src="https://s2.loli.net/2023/07/08/zADCxWkmBh1O3Vn.jpg" alt="20230708233754.jpg"></th></tr></thead></table><p>我们真的是太幸运了，什么都看到了，也为我们在一起的第一次加上了浓厚的一笔！</p><p>结尾不得不吐槽一下，上山容易下山难，从山上抖到山下，下山比上山慢…</p><p>最终，我与紫玲达成协议，以后不爬这么高的山了，实在是太累了…</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;7.7 - 7.8 武功山旅行日记&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;往返火车票&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img src=&quot;https://s2.loli.net/2023/07/08/PY5zjfo8edZixhG.png&quot; </summary>
+      
+    
+    
+    
+    <category term="游玩日记" scheme="https://qzl.luoxiaohei.fun/categories/%E6%B8%B8%E7%8E%A9%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="游玩日记" scheme="https://qzl.luoxiaohei.fun/tags/%E6%B8%B8%E7%8E%A9%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用visa开通chatgpt plus详细教程</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/19b87fe5.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/19b87fe5.html</id>
+    <published>2023-07-03T23:43:34.000Z</published>
+    <updated>2023-07-04T01:12:48.197Z</updated>
+    
+    <content type="html"><![CDATA[<h1>使用visa开通chatgpt plus详细教程</h1><p>开通chatgpt plus 有很多种途径，国内使用visa虽然不是最省钱的方法，但是相较于其他方式（礼品卡、其他卡）较为方便。费用大概在20多刀（有开卡费1.5刀，会员费20刀），接下来就一起学习如何使用visa开通chatgpt plus吧，希望这篇教程帮助到您。</p><h2 id="1、首先你得开通chatgpt账号。">1、首先你得开通chatgpt账号。</h2><p>在我博客中有教程：  <a href="https://qzl.luoxiaohei.fun/posts/8b3c5d64.html">ChatGPT账号注册教程，详细版！</a></p><h2 id="2、注册visa卡">2、注册visa卡</h2><p><a href="https://www.limaopay.com/register/#/register?codes=TgFiUxs5">开通visa卡</a></p><p>输入自己的信息，注册成功后需要联系官方客服帮你审核，你只需要告诉她你开卡的途径就可以了，客服微信：Limaopay</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704083527948.png" alt="image-20230704083527948"></p><h2 id="3、充值、买卡">3、充值、买卡</h2><p>第一步</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704083819128.png" alt="image-20230704083819128"></p><p>第二步，充值</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084020232.png" alt="image-20230704084020232"></p><p>第三步</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084045204.png" alt="image-20230704084045204"></p><p>第四步，买卡</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084207422.png" alt="image-20230704084207422"></p><p>第五步</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084249225.png" alt="image-20230704084249225"></p><p>第六步</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084309018.png" alt="image-20230704084309018"></p><p>第七步，查看visa卡信息</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704084443489.png" alt="image-20230704084443489"></p><h2 id="visa卡已经开通成功，接下来就是开通chatgpt-plus了。">visa卡已经开通成功，接下来就是开通chatgpt plus了。</h2><p>第一步，去<a href="https://chat.openai.com/">官网</a>，登录账号后点击升级。</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704085232911.png" alt="image-20230704085232911"></p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704085246156.png" alt="image-20230704085246156"></p><p>第二步，填写信息</p><p>地址：5 W 5th St Room 34027 ， 城市州：Los Angeles ， 邮编<strong>90013</strong></p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230704085625891.png" alt="image-20230704085625891"></p><p>第三步，点击订阅，到此您的plus就成功开通了。</p><hr><p>错误总汇</p><p>1、您的卡已被拒绝</p><p>​解决方案：</p><p>​1、检查你的卡号信息、安全码、截止日期，姓名，地址等信息。</p><p>​2、换vpn，开无痕模式</p><p>​通常上面方案即可解决，如果上面两种方案您都试了，但没用。最后一种百分比成功方案就是在苹果手机上下载chatgpt，在苹果手机chatgpt里面填写卡号信息并订阅，这需要您有苹果手机并且是境外appleID。</p><p>​如果您没有境外appleID或则没有苹果手机，可以找我帮忙开通，微信：lh18779121256</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;使用visa开通chatgpt plus详细教程&lt;/h1&gt;
+&lt;p&gt;开通chatgpt plus 有很多种途径，国内使用visa虽然不是最省钱的方法，但是相较于其他方式（礼品卡、其他卡）较为方便。费用大概在20多刀（有开卡费1.5刀，会员费20刀），接下来就一起学习如何使用</summary>
+      
+    
+    
+    
+    <category term="chatgpt" scheme="https://qzl.luoxiaohei.fun/categories/chatgpt/"/>
+    
+    
+    <category term="chatgpt" scheme="https://qzl.luoxiaohei.fun/tags/chatgpt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WINDOWS11 局域网服务器注意事项</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/7e96c274.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/7e96c274.html</id>
+    <published>2023-06-13T18:56:12.000Z</published>
+    <updated>2023-07-04T01:11:50.453Z</updated>
+    
+    <content type="html"><![CDATA[<h1>WINDOWS11 局域网服务器注意事项</h1><p>1、WINDOWS防火墙终究还是太厉害了，如果是本地的服务器开启了防火墙，那么就算你服务器电脑在监听着这个端口，那么也会被防火墙阻止。</p><blockquote><p>所以，想要本地服务器能被访问，不止能ping通ip地址，还需要服务器监听指定端口，还需要防火墙不阻止端口。三者缺一不可。</p><p>如何查看服务器是非监听指定端口：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -ano | <span class="built_in">find</span> &quot;PortNumber&quot; | <span class="built_in">find</span> &quot;LISTENING&quot;</span><br></pre></td></tr></table></figure><p>如何查看防火墙是否住址端口：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netsh firewall show state</span><br></pre></td></tr></table></figure><p>打开一个被阻止的端口：</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230614195104679.png" alt="image-20230614195104679"></p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230614195209768.png" alt="image-20230614195209768"></p><p>==之后选择要打开的端口即可，像这样==</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230614195326061.png" alt="image-20230614195326061"></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;WINDOWS11 局域网服务器注意事项&lt;/h1&gt;
+&lt;p&gt;1、WINDOWS防火墙终究还是太厉害了，如果是本地的服务器开启了防火墙，那么就算你服务器电脑在监听着这个端口，那么也会被防火墙阻止。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以，想要本地服务器能被访问，不止能p</summary>
+      
+    
+    
+    
+    
+    <category term="内网服务器" scheme="https://qzl.luoxiaohei.fun/tags/%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建动态博客Halo</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/270caacd.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/270caacd.html</id>
+    <published>2023-06-10T18:27:22.000Z</published>
+    <updated>2023-06-11T05:50:37.157Z</updated>
+    
+    <content type="html"><![CDATA[<h1>搭建动态博客Halo</h1><h2 id="在线体验">在线体验</h2><ul><li>环境地址：<a href="https://demo.halo.run/">https://demo.halo.run</a></li><li>后台地址：<a href="https://demo.halo.run/console">https://demo.halo.run/console</a></li><li>用户名：<code>demo</code></li><li>密码：<code>P@ssw0rd123..</code></li></ul><h2 id="搭建环境">搭建环境</h2><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>云服务器，Linux系统（Ubuntu、centOS）</span><br><span class="line"><span class="bullet">- </span>安装好 Docker、Docker-compose</span><br><span class="line"><span class="bullet">- </span>安装好mysql、Nginx等环境（面板安装）</span><br></pre></td></tr></table></figure><h2 id="搭建方式">搭建方式</h2><p>云服务器+docker+mysql</p><ul><li><p>1、购买云服务器之后，首先开启面板和halo默认端口</p></li><li><p>2、连接云服务器安装docker和docker-compose</p></li><li><p>3、创建安装目录，使用配置文件配置仓库</p></li><li><p>4、启动</p></li></ul><h2 id="搭建步骤">搭建步骤</h2><h3 id="1、购买服务器">1、购买服务器</h3><h3 id="2、安装docker和docker-compose">2、安装docker和docker-compose</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//docker</span><br><span class="line">curl -sSL https://get.daocloud.io/docker | sh</span><br><span class="line"></span><br><span class="line">docker -v  <span class="comment">#查看 docker 版本</span></span><br><span class="line"></span><br><span class="line">systemctl <span class="built_in">enable</span> docker  <span class="comment"># 设置开机自动启动</span></span><br><span class="line"></span><br><span class="line">//docker-compose</span><br><span class="line"></span><br><span class="line">apt  install docker-compose</span><br></pre></td></tr></table></figure><h3 id="3、创建安装目录，使用配置文件配置仓库">3、创建安装目录，使用配置文件配置仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> -p /root/data/docker_data/halo</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> /root/data/docker_data/halo</span><br><span class="line"></span><br><span class="line">vi docker-compose.yml</span><br></pre></td></tr></table></figure><p>输入下面配置项</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&quot;3&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">halo:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">halohub/halo:2.6.0</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">halo</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">on-failure:3</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="attr">halodb:</span></span><br><span class="line">        <span class="attr">condition:</span> <span class="string">service_healthy</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="attr">halo_network:</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./:/root/.halo2</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;8090:8090&quot;</span></span><br><span class="line">    <span class="attr">command:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.url=r2dbc:pool:mysql://halodb:3306/halo</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.username=root</span></span><br><span class="line">      <span class="comment"># MySQL 的密码，请保证与下方 MYSQL_ROOT_PASSWORD 的变量值一致。</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.password=o#DwN&amp;JSa56</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.sql.init.platform=mysql</span></span><br><span class="line">      <span class="comment"># 外部访问地址，请根据实际需要修改</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--halo.external-url=http://localhost:8090/</span></span><br><span class="line">      <span class="comment"># 初始化的超级管理员用户名</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--halo.security.initializer.superadminusername=admin</span></span><br><span class="line">      <span class="comment"># 初始化的超级管理员密码</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--halo.security.initializer.superadminpassword=P@88w0rd</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">halodb:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql:8.0.31</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">halodb</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">on-failure:3</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="attr">halo_network:</span></span><br><span class="line">    <span class="attr">command:</span> </span><br><span class="line">      <span class="bullet">-</span> <span class="string">--default-authentication-plugin=mysql_native_password</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--character-set-server=utf8mb4</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--collation-server=utf8mb4_general_ci</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--explicit_defaults_for_timestamp=true</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./mysql:/var/lib/mysql</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./mysqlBackup:/data/mysqlBackup</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;3306&quot;</span></span><br><span class="line">    <span class="attr">healthcheck:</span></span><br><span class="line">      <span class="attr">test:</span> [<span class="string">&quot;CMD&quot;</span>, <span class="string">&quot;mysqladmin&quot;</span>, <span class="string">&quot;ping&quot;</span>, <span class="string">&quot;-h&quot;</span>, <span class="string">&quot;127.0.0.1&quot;</span>, <span class="string">&quot;--silent&quot;</span>]</span><br><span class="line">      <span class="attr">interval:</span> <span class="string">3s</span></span><br><span class="line">      <span class="attr">retries:</span> <span class="number">5</span></span><br><span class="line">      <span class="attr">start_period:</span> <span class="string">30s</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="comment"># 请修改此密码，并对应修改上方 Halo 服务的 SPRING_R2DBC_PASSWORD 变量值</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">MYSQL_ROOT_PASSWORD=o#DwN&amp;JSa56</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">MYSQL_DATABASE=halo</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">halo_network:</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>4、启动</p><p>查看我们端口是否被占用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsof -i:8090</span><br></pre></td></tr></table></figure><p>启动项目</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /root/data/docker_data/halo    <span class="comment"># 来到 dockercompose 文件所在的文件夹下</span></span><br><span class="line"></span><br><span class="line">docker-compose up -d </span><br></pre></td></tr></table></figure><p>现在我们就可以输入IP+8090 访问安装博客了</p><p>5、其他</p><p>后面的绑定域名、使用插件、跟换主题都可以使你的博客变得美观且易用。</p><p>比如安装一个模仿hexo中butterfly主题作为演示。</p><hr><p>删除docker-compose</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose podman-docker containerd runc; <span class="keyword">do</span> sudo apt-<span class="built_in">get</span> <span class="built_in">remove</span> <span class="variable">$pkg</span>; done</span><br></pre></td></tr></table></figure><p>卸载dalo</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd <span class="regexp">/root/</span>data<span class="regexp">/docker_data/</span>halo</span><br><span class="line"></span><br><span class="line">docker-compose down</span><br><span class="line"></span><br><span class="line">cd ..</span><br><span class="line"></span><br><span class="line">rm -rf <span class="regexp">/root/</span>data<span class="regexp">/docker_data/</span>halo  <span class="comment"># 完全删除映射到本地的数据</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;搭建动态博客Halo&lt;/h1&gt;
+&lt;h2 id=&quot;在线体验&quot;&gt;在线体验&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;环境地址：&lt;a href=&quot;https://demo.halo.run/&quot;&gt;https://demo.halo.run&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;后台地址：&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="博客" scheme="https://qzl.luoxiaohei.fun/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="博客、Halo" scheme="https://qzl.luoxiaohei.fun/tags/%E5%8D%9A%E5%AE%A2%E3%80%81Halo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用局域网实现iphone和windows文件互传||不再使用qq微信传文件</title>
+    <link href="https://qzl.luoxiaohei.fun/posts/a89916b1.html"/>
+    <id>https://qzl.luoxiaohei.fun/posts/a89916b1.html</id>
+    <published>2023-06-07T02:41:42.750Z</published>
+    <updated>2023-06-07T03:00:16.578Z</updated>
+    
+    <content type="html"><![CDATA[<p>遇到的bug：</p><h1>内容不可用无法显示文件夹内容</h1><p>出错原因是啥不知道</p><p>解决办法：删除链接的服务器然后重新连接。</p><p>共享文件夹方法：</p><h6 id="1、在-Windows-电脑新建一个文件夹，右击「属性」，选择「共享」选项卡。">1、在 Windows 电脑新建一个文件夹，右击「属性」，选择「共享」选项卡。</h6><p><img src="https://pic4.zhimg.com/80/v2-712d2769bf193c7a3b92f5639ba6d2d7_720w.jpg" alt="img"></p><h6 id="2、点击「高级共享」，在弹出窗口中勾选「共享此文件夹」，点击「权限」">2、点击「高级共享」，在弹出窗口中勾选「共享此文件夹」，点击「权限」</h6><p><img src="https://pic1.zhimg.com/80/v2-669f23527c738dd93f23f6bb82967568_720w.jpg" alt="img"></p><p>3、在新打开的「权限」窗口中选中 「Everyone」，在「Everyone」下方勾选「完全控制」选项。</p><p><img src="https://pic4.zhimg.com/80/v2-131545f3e481709230b2b2d74fc8a2a7_720w.jpg" alt="img"></p><p>4、回到最开始的「属性」窗口，点击「共享」，在弹出的「网络访问」窗口，选择「Everyone」后，点击「添加」。</p><p><img src="https://pic4.zhimg.com/80/v2-2e4f68e3b5d0a93cd4923305520b2aef_720w.jpg" alt="img"></p><p>5、添加了 Everyone 用户后，将文件夹的权限改为「读取/写入」，点击右下角的「共享」。</p><p><img src="https://pic1.zhimg.com/80/v2-eadec0f44566d1b5490613e2661df6a8_720w.jpg" alt="img"></p><p>6、查看自己的ipv4地址。用手机文件app连接到该ip，输入用户名和密码，即可共享此文件。<img src="https://pic1.zhimg.com/80/v2-3909bf6dd6e6fece8e77c2ede991eba0_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-707141eb32295cc607880e44095636f4_720w.jpg" alt="img"></p><p>注意：名称：29133密码：luohao123…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;遇到的bug：&lt;/p&gt;
+&lt;h1&gt;内容不可用无法显示文件夹内容&lt;/h1&gt;
+&lt;p&gt;出错原因是啥不知道&lt;/p&gt;
+&lt;p&gt;解决办法：删除链接的服务器然后重新连接。&lt;/p&gt;
+&lt;p&gt;共享文件夹方法：&lt;/p&gt;
+&lt;h6 id=&quot;1、在-Windows-电脑新建一个文件夹，右击「属性」，选择「</summary>
+      
+    
+    
+    
+    <category term="电脑使用" scheme="https://qzl.luoxiaohei.fun/categories/%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8/"/>
+    
+    
+    <category term="windows使用技巧" scheme="https://qzl.luoxiaohei.fun/tags/windows%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   

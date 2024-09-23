@@ -4,84 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<p>​一个月5000块钱，不多也不少，相比于其他地方，有好的也有坏的。如果我不干，导师一定会杂七杂八的劝我，还可能闹掰。</p><p>​但是，我现在就要做决定，因为合同一旦签了，那就没有反悔的机会了，</p><p>​如果我干，那我这一年一半的时间都在代课中度过，非常的浪费时间，而且准备我需要准备的东西又很难静下心来准备。（我担心我这样迷迷糊糊到了明年下半年就什么都不会了）（研究生是学生阶段，还是以学习为主）（这个工作并不是在学习而是单纯为了赚钱）（虽然老师说要教我东西，但是以这些天的相处来看，并不太可能会教我，因为他有很多自己的事情要做）</p><p>​如果我不干，我要自己在学校安排好自己的学习任务，自己开始学习，继续要爸妈的生活费，生活可能滋润一些，学习压力也会小一些，但是爸妈的压力会大一些。</p><p>​总结：</p><p>干：</p><p>​经济压力小一些，学习压力大一些，</p><p>不干：</p><p>​经济压力大一些，学习压力小一些</p><p>干一年的话到明年6月底，期间要把项目搞好，省考之类的可以会学校再弄，如果干：要自己调整好时间，把代课的精力放小一点，把学习的时间精力留多一些</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<p>别对自己的长辈说浮夸的东西</p><p>年龄大的人越是讨厌这些东西，说自己朋友怎么怎么样，自己怎么怎么样</p><p>这些都是不切实际的且惹人讨厌的，对待重要的人最重要的就是真诚。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1>redis</h1><h2 id="什么是redis？">什么是redis？</h2><p>是基于内存存储的key-value数据库，mysql数据存在磁盘上的，通常一些常用的数据就会用到redis</p><h2 id="redis入门">redis入门</h2><h3 id="redis简介">redis简介</h3><p>一个开源的基于内存来处理缓存数据库，和消息中间件。</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225654292.png" alt="image-20230902225654292"></p><h3 id="redis安装">redis安装</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225827968.png" alt="image-20230902225827968"></p><p>给redis设置密码保证redis的安全性</p><p>在redis.conf中：</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230039379.png" alt="image-20230902230039379"></p><h3 id="redis服务启动和停止">redis服务启动和停止</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230143734.png" alt="image-20230902230143734"></p><p>给redis设置远程连接</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230303187.png" alt="image-20230902230303187"></p><h2 id="redis的数据类型">redis的数据类型</h2><h3 id="5种数据类型介绍">5种数据类型介绍</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230409198.png" alt="image-20230902230409198"></p><h2 id="redis的常用命令">redis的常用命令</h2><p>使用这些命令操作redis的数据。</p><h4 id="string">string</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903104840101.png" alt="image-20230903104840101"></p><h4 id="hash">hash</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105143381.png" alt="image-20230903105143381"></p><h4 id="list">list</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105704703.png" alt="image-20230903105704703"></p><h4 id="set">set</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105838114.png" alt="image-20230903105838114"></p><h4 id="通用命令">通用命令</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105857816.png" alt="image-20230903105857816"></p><h2 id="java中操作Redis">java中操作Redis</h2><h4 id="Spring-Data-redis">Spring Data redis</h4><p>Spring对redis客户端做了整合，提供了Spring Data Reids，在spring boot项目中提供了对应的接口starter，即spring-boot-starter-data-redis</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903110450233.png" alt="image-20230903110450233"></p><p>使用redisTamplate操作各种redis数据方法详见：[redis](D:\study_key\postgraduate\JAVA\java\8、黑马程序员瑞吉外卖平台实战开发\瑞吉外卖-资料\4 Redis课程\代码\springdataredis_demo\src\test\java\com\itheima\test\SpringDataRedisTest.java)</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<p>我们知道重装系统可以解决99%的电脑问题，今天就让我来帮大家成为修电脑大神，以后再也不用找渣男帮修电脑啦！</p><p>首先，我们只需要一个大于8GB的U盘，然后在浏览器中搜索windows，</p><p>制作好u盘启动器之后呢，我们就要正式开始修电脑啦！</p><p>第一步我们要去百度问一下我们电脑是按哪个键进入电脑的BIOS软件的，我已经总结好啦，大家可以对照一下</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230826125505941.png" alt="image-20230826125505941">jv</p><p>然后把u盘插入你要重装系统的电脑里，在开机的时候一直按进入BIOS的键就好啦，</p><p>进入BIOS之后，把我们的u盘作为启动盘就可以啦，只需要移动一下就可以了，</p><p>重新启动之后我们就进入了新的系统里面啦，接下来的设置就就按照个人喜好啦！</p><p>好啦，我的分享就到此结束啦，感觉大家观看，希望大家都能成为电脑大咖！</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<p>开学就研二了，这一年必定在为了毕业秋招的路上奔波吧</p><p>想多了全是问题，做多了全是答案！</p><p>先整理好自己未来要面对问题：</p><p>1、互联网秋招，准备八股文和项目</p><p>2、公务员考试，国考省考等</p><p>3、学习深度学习，为后面毕业论文做准备</p><p>4、软考</p><p>这三件事才是这一年的重点，让自己有核心竞争力！</p><p>学习方案</p><p>回学校以最快方式调整状态，开始学习，6+1形式学习，周六放松玩，周一到周五周日学习。周六复盘。</p><p>想多了全是问题，做多了全是答案！💪</p><p>研二的计划📆：</p><p>1️⃣ 互联网秋招🌐：全武装，准备面试常见的八股文和实战项目！</p><p>2️⃣ 公务员考试🏛️：国考、省考、烟草、电网、事业单位，要了解报考人数和待遇！</p><p>3️⃣ 深度学习🤖：为毕业论文打下坚实基础！</p><p>4️⃣ 软考🖥️：提升自己，不留遗憾！</p><p>🎯这三件事才是这一年的重点，让自己有核心竞争力！</p><p>🌟 学习策略 🌟：</p><p>回到学校，迅速调整状态，戒掉手机，6+1学习法，专注学习6天，给自己放松的1天！每个周六都是放松和复盘的日子。</p><p>宝贝们，新的学期，新的开始，我们一起加油，为未来的自己努力吧！点赞❤️和收藏🔖，与我同行！</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1>昨日消极复盘</h1><p>昨天其实应该是很开心的 ，以为我心心念念的六级考过了，紫玲也考过了科目二，还去吃了肯德基。</p><p>但是，晚上，紫玲责怪我写的信不好，原因是我七夕送了一封吐槽她的信。然后甩下话睡觉去了，留我一个人反思着自己。</p><p>对于这件事情，我有自己的看法：那天晚上，你说想要我写信给你，我没答应，但是我想着还是写一封，所以这封信是那天晚上写的。那上面的“吐槽”的事情其实是对我印象比较深的事情，也是这种事情，让我对你的认识更加深刻，你的形象在我心中也更加生动。当时写这封信并没有想着七夕给你，到了七夕那天，我除了发红包之外，没有想到送什么礼物比较好，所以索性把这封信带上。以为能让你开心。</p><p>所以，我以为好的东西别人可能不会觉得好，以为我不知道别人真正需要的东西。</p><p>经过漫长的熬夜，我也知道自己不能因为这种小事就郁郁不得志，自己不能这么容易被影响。就算受到影响也要及时走出来，想明白了之后可以通过转移注意力来解决，一直郁郁寡欢真的很亏啊。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>6级备考</title>
       <link href="/posts/4669a788.html"/>
       <url>/posts/4669a788.html</url>
@@ -120,13 +42,19 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>唠叨</title>
+      <link href="/posts/317894.html"/>
+      <url>/posts/317894.html</url>
       
         <content type="html"><![CDATA[<h1>和任何人的比较、都是在内耗自己、让自己迷失在找不到希望的迷宫里。</h1><p>今天我妈拿出了20w的存款给我看，告诉我家里有钱，当时我还是觉得有点少，因为我对家里的钱并没有很确切的概念，在我印象中，钱的多少对我影响没有很大，但是我知道，以后没有爸妈保护下，钱的多少是很重要的事情，所以我需要尽快养成对钱的敏感度，合理安排钱和钱生钱。</p><p>我妈拿出钱是因为害怕我担心家里没钱娶老婆，其实我不担心，只是对于婚姻来说，我认为不是儿戏，对我，对所有人都是一个冒险，我怕我不能承担这样的风险。我认为以后的生活是一步一步在精明的计划中实现的，我需要更加有洞穿未来的眼光。</p><p>我妈跟我说我哥花了多少钱我就有多少钱，我哥买房200多w，装修60w，彩礼、结婚这些加起来，在我哥身上花了300w。所以爸妈打算给我在省内买一个100多w的房子，中大城的房子给我。这样房子装修差不多，再给我买一辆车。这样就弄的差不多。</p><p>我知道，这些都是大人们的事情，不需要担心和怀疑，我最重要的还是管好自己的事情，让自己有潜力，有能力。所以，不要想太多，专心发展自己才是王道。</p><p>男人到了中年，要有的“城府”：<br>1、不和亲戚一起去旅游。</p><p>2、经常把手机扣在桌子上。</p><p>3、不往烟灰缸里面倒水。</p><p>4、聊天，一问一答式的对话，要懂得早点离开。</p><p>5、帮子女带孩子，3缺1，谁打电话也不去。</p><p>6、看到邻居脸色不好，不要问怎么了，打声招呼，就匆匆离开。</p><p>7、亲戚请帮忙办事，不要表现出很容易，反而要装作不好办。</p><p>8、理发不说剪短点。</p><p>9、生病了，或者身体不好，不串门。</p><p>10、别让子女和朋友一起去考驾照，就怕先拿到驾照。</p><p>11、经常对别人说谢谢，很重要。</p><p>12、别人请客，晚5分钟再去。</p><p>13、被别人夸赞的时候，适当的暴露自己的不足。</p><p>14、不和年轻人混在一起，那是找难受。</p><p>15、帮不上忙的事，不要问别人的事情进展。</p><p>16、远离少妇，远离离了婚的女人。</p><p>17、在医院，护士对你不客气，但你要对护士客气。</p><p>18、别拿扫把打人，哪怕是开玩笑的也不行。</p><p>19、组局，快要买单的时候不要去上厕所。</p><p>20、别人送自己的鞋子，哪怕九成新，最好也别要。</p><p>21、领导总是当众夸你，你一定要小心，捧杀才是最可怕的。</p><p>22、不和子女说自己这一辈子的恩怨，没必要延续下去。</p><p>23、父母年纪大了，烦心的事，不能和他们说。</p><p>24、两个人睡觉，真的没必要放三个枕头。</p><p>25、尽量不住在别人家里，没人愿意被打扰。</p><p>26、遇到搭顺风车的，一次是人情，连续第2次，就要远离。</p><p>27、朋友的离去，不问，不内耗，这是价值考量的结果。</p><p>28、在别人的车上，不乱说话，行车记录仪很可怕。</p><p>29、问了两次都没回答，对方已经给了答案。</p><p>30、凡事留一手，以备不时之需。</p><p>31、千人千面，对待不同的人，需要不同的态度。</p><p>32、只要有一个客人没放大筷子，主人就不能说吃好了。</p><p>33、少发朋友圈，总有一些人在研究你。</p><p>34、一定要会说客气话，虽然很虚，但是人人爱听。</p><p>35、别人发的红包或者转账，等几分钟再送。</p><p>36、朋友接电话的时候，要和他保持一定的距离，电话总会涉及到一些个人隐私。</p><p>37、别想着躺平，趁着有限的时间，赶紧多挣钱。</p><p>38、场面话一定要会说，酒桌上没有几句场面话，很难合群。</p><p>39、在外面要说谎，在家里也要说谎，善意的谎言，家庭才能够更和谐。</p><p>40、老家的房子不要丢，哪怕你很有钱。</p><p>41、控制好自己的情绪，这样才能不被别人利用。</p><p>42、不舒服的事情，就要拒绝，别做老好人。</p><p>43、赚钱的事情，要懂得闷声发大财。</p><p>44、人到中年，心里一定要能装事，别口无遮拦。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -432,13 +360,25 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>力扣hot100--002</title>
+      <link href="/posts/321123.html"/>
+      <url>/posts/321123.html</url>
       
-        <content type="html"><![CDATA[<hr><p>title: 力扣hot100–002<br>date: 2022-5-19 18：02：23<br>tags: c++、算法<br>categories: 算法题<br>cover: ‘<a href="https://s2.loli.net/2023/06/05/3Xb2OHjnB7wTkds.jpg">https://s2.loli.net/2023/06/05/3Xb2OHjnB7wTkds.jpg</a>’<br>abbrlink: 3f31bd15<br>​—</p><h1><a href="https://leetcode.cn/problems/add-two-numbers/">2. 两数相加</a></h1><h1>题目描述</h1><p>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。</p><p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p><p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p><mark class="hl-label red">eg：</mark> <figure class="highlight inform7"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入：l1 = <span class="comment">[2,4,3]</span>, l2 = <span class="comment">[5,6,4]</span></span><br><span class="line">输出：<span class="comment">[7,0,8]</span></span><br><span class="line">解释：342 + 465 = 807.</span><br></pre></td></tr></table></figure><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：l1 = [<span class="number">9,9,9,9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>], l2 = [<span class="number">9,9,9,9</span>]</span><br><span class="line">输出：[<span class="number">8,9,9,9</span>,<span class="number">0,0,0,1</span>]</span><br></pre></td></tr></table></figure><h1>解决思路</h1><p>将两个链表看成是相同长度的进行遍历，如果一个链表较短则在前面补 0，比如 <code>987 + 23 = 987 + 023 = 1010</code></p><p>小技巧：对于链表问题，返回结果为头结点时，通常需要先初始化一个<mark class="hl-label blue">预先指针pre</mark> ，该指针的下一个节点指向真正的头结点head。使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。</p><p><strong>过程如图所示：</strong></p><mark class="hl-label pink">1、初始化</mark> <img src="https://s2.loli.net/2022/05/19/xaudLjwIZAX1DOU.png" style="zoom:50%;" /><mark class="hl-label pink">2、过程</mark> <img src="https://s2.loli.net/2022/05/19/SOIz7tjnEhuqxXg.png" style="zoom:50%;" /><mark class="hl-label pink">3、结果</mark> <img src="https://s2.loli.net/2022/05/19/28JXya1KdxwNUec.png" style="zoom:50%;" /><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        ListNode* pre = <span class="keyword">new</span> <span class="built_in">ListNode</span>(); <span class="comment">//初始化预先指针</span></span><br><span class="line">        ListNode* nex = pre; <span class="comment">//设置移动指针</span></span><br><span class="line">        <span class="type">int</span> tag = <span class="number">0</span>; <span class="comment">//进位标志位</span></span><br><span class="line">        <span class="keyword">while</span>(l1 != <span class="literal">nullptr</span> || l2 != <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            <span class="type">int</span> x = l1 == <span class="literal">nullptr</span> ? <span class="number">0</span> : l1-&gt;val;</span><br><span class="line">            <span class="type">int</span> y = l2 == <span class="literal">nullptr</span> ? <span class="number">0</span> : l2-&gt;val;</span><br><span class="line">            <span class="type">int</span> sum = x + y + tag;</span><br><span class="line">            tag = sum / <span class="number">10</span>;</span><br><span class="line">            sum = sum % <span class="number">10</span>;</span><br><span class="line">            nex-&gt;next = <span class="keyword">new</span> <span class="built_in">ListNode</span>(sum);</span><br><span class="line">            nex = nex-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l1 != <span class="literal">nullptr</span>)</span><br><span class="line">                l1 = l1-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l2 != <span class="literal">nullptr</span>)</span><br><span class="line">                l2 = l2-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">             <span class="keyword">if</span>(tag == <span class="number">1</span>)&#123;  <span class="comment">// 考虑最后的进位1</span></span><br><span class="line">            nex-&gt;next = <span class="keyword">new</span> <span class="built_in">ListNode</span>(tag);</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">return</span> pre-&gt;next;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><h2 id="c-结构体">c++结构体</h2><p>相关操作及注意事项：</p><h5 id="定义结构体">定义结构体</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">My</span>&#123;</span><br><span class="line">    My *left;</span><br><span class="line">    My *right;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">    <span class="built_in">My</span>()&#123;&#125;</span><br><span class="line">    <span class="built_in">My</span>(<span class="type">int</span> val):<span class="built_in">left</span>(<span class="literal">NULL</span>),<span class="built_in">right</span>(<span class="literal">NULL</span>),<span class="built_in">val</span>(val)&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><h5 id="访问结构体元素">访问结构体元素</h5><p>结构体中的变量，可以直接通过<mark class="hl-label pink">点操作符</mark> 来访问。</p><p>而对于结构体指针而言：必须通过<mark class="hl-label pink">->符号</mark> 来访问指针所指结构体的变量。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test2</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My m;</span><br><span class="line">    m.val = <span class="number">1</span>;</span><br><span class="line">    My *mm;</span><br><span class="line">    mm = &amp;m;</span><br><span class="line">    cout&lt;&lt;mm-&gt;val&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="注意事项">注意事项</h2><p>声明一个结构体指针记得初始化，一定要初始化，不初始化会出事（重要的事情说三遍）下面代码就会报错，没有初始化。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test3</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My *m;</span><br><span class="line">    m-&gt;val = <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>用new申请了内存空间。问题即可解决。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test3</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My *m;</span><br><span class="line">    m = <span class="keyword">new</span> <span class="built_in">My</span>(<span class="number">3</span>);</span><br><span class="line">    m-&gt;val = <span class="number">4</span>;</span><br><span class="line">    cout&lt;&lt;m-&gt;val&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1><a href="https://leetcode.cn/problems/add-two-numbers/">2. 两数相加</a></h1><h1>题目描述</h1><p>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。</p><p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p><p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p><mark class="hl-label red">eg：</mark> <figure class="highlight inform7"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入：l1 = <span class="comment">[2,4,3]</span>, l2 = <span class="comment">[5,6,4]</span></span><br><span class="line">输出：<span class="comment">[7,0,8]</span></span><br><span class="line">解释：342 + 465 = 807.</span><br></pre></td></tr></table></figure><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：l1 = [<span class="number">9,9,9,9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>], l2 = [<span class="number">9,9,9,9</span>]</span><br><span class="line">输出：[<span class="number">8,9,9,9</span>,<span class="number">0,0,0,1</span>]</span><br></pre></td></tr></table></figure><h1>解决思路</h1><p>将两个链表看成是相同长度的进行遍历，如果一个链表较短则在前面补 0，比如 <code>987 + 23 = 987 + 023 = 1010</code></p><p>小技巧：对于链表问题，返回结果为头结点时，通常需要先初始化一个<mark class="hl-label blue">预先指针pre</mark> ，该指针的下一个节点指向真正的头结点head。使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。</p><p><strong>过程如图所示：</strong></p><mark class="hl-label pink">1、初始化</mark> <img src="https://s2.loli.net/2022/05/19/xaudLjwIZAX1DOU.png" style="zoom:50%;" /><mark class="hl-label pink">2、过程</mark> <img src="https://s2.loli.net/2022/05/19/SOIz7tjnEhuqxXg.png" style="zoom:50%;" /><mark class="hl-label pink">3、结果</mark> <img src="https://s2.loli.net/2022/05/19/28JXya1KdxwNUec.png" style="zoom:50%;" /><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        ListNode* pre = <span class="keyword">new</span> <span class="built_in">ListNode</span>(); <span class="comment">//初始化预先指针</span></span><br><span class="line">        ListNode* nex = pre; <span class="comment">//设置移动指针</span></span><br><span class="line">        <span class="type">int</span> tag = <span class="number">0</span>; <span class="comment">//进位标志位</span></span><br><span class="line">        <span class="keyword">while</span>(l1 != <span class="literal">nullptr</span> || l2 != <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            <span class="type">int</span> x = l1 == <span class="literal">nullptr</span> ? <span class="number">0</span> : l1-&gt;val;</span><br><span class="line">            <span class="type">int</span> y = l2 == <span class="literal">nullptr</span> ? <span class="number">0</span> : l2-&gt;val;</span><br><span class="line">            <span class="type">int</span> sum = x + y + tag;</span><br><span class="line">            tag = sum / <span class="number">10</span>;</span><br><span class="line">            sum = sum % <span class="number">10</span>;</span><br><span class="line">            nex-&gt;next = <span class="keyword">new</span> <span class="built_in">ListNode</span>(sum);</span><br><span class="line">            nex = nex-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l1 != <span class="literal">nullptr</span>)</span><br><span class="line">                l1 = l1-&gt;next;</span><br><span class="line">            <span class="keyword">if</span>(l2 != <span class="literal">nullptr</span>)</span><br><span class="line">                l2 = l2-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">             <span class="keyword">if</span>(tag == <span class="number">1</span>)&#123;  <span class="comment">// 考虑最后的进位1</span></span><br><span class="line">            nex-&gt;next = <span class="keyword">new</span> <span class="built_in">ListNode</span>(tag);</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">return</span> pre-&gt;next;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><h2 id="c-结构体">c++结构体</h2><p>相关操作及注意事项：</p><h5 id="定义结构体">定义结构体</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">My</span>&#123;</span><br><span class="line">    My *left;</span><br><span class="line">    My *right;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">    <span class="built_in">My</span>()&#123;&#125;</span><br><span class="line">    <span class="built_in">My</span>(<span class="type">int</span> val):<span class="built_in">left</span>(<span class="literal">NULL</span>),<span class="built_in">right</span>(<span class="literal">NULL</span>),<span class="built_in">val</span>(val)&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><h5 id="访问结构体元素">访问结构体元素</h5><p>结构体中的变量，可以直接通过<mark class="hl-label pink">点操作符</mark> 来访问。</p><p>而对于结构体指针而言：必须通过<mark class="hl-label pink">->符号</mark> 来访问指针所指结构体的变量。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test2</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My m;</span><br><span class="line">    m.val = <span class="number">1</span>;</span><br><span class="line">    My *mm;</span><br><span class="line">    mm = &amp;m;</span><br><span class="line">    cout&lt;&lt;mm-&gt;val&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="注意事项">注意事项</h2><p>声明一个结构体指针记得初始化，一定要初始化，不初始化会出事（重要的事情说三遍）下面代码就会报错，没有初始化。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test3</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My *m;</span><br><span class="line">    m-&gt;val = <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>用new申请了内存空间。问题即可解决。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test3</span><span class="params">()</span></span>&#123;</span><br><span class="line">    My *m;</span><br><span class="line">    m = <span class="keyword">new</span> <span class="built_in">My</span>(<span class="number">3</span>);</span><br><span class="line">    m-&gt;val = <span class="number">4</span>;</span><br><span class="line">    cout&lt;&lt;m-&gt;val&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 算法题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> c++、算法 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1421,31 +1361,6 @@
     
     
     <entry>
-      <title>Xmind激活亲测有效（23/3/30）</title>
-      <link href="/posts/1b0b3702.html"/>
-      <url>/posts/1b0b3702.html</url>
-      
-        <content type="html"><![CDATA[<h1>Xmind激活亲测有效（23/3/30）</h1><p>下载资源</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230330095543117.png" alt="image-20230330095543117"></p><p>双击安装包，程序自动安装在C:\Program Files\XMind下</p><p>替换</p><p>C:\Program Files\XMind\resources下的app.asar,打开xmind即可激活。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> XMmid </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> XMind </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>B610m-a装机步骤</title>
       <link href="/posts/44f9d292.html"/>
       <url>/posts/44f9d292.html</url>
@@ -1463,6 +1378,31 @@
         <tags>
             
             <tag> 装机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xmind激活亲测有效（23/3/30）</title>
+      <link href="/posts/1b0b3702.html"/>
+      <url>/posts/1b0b3702.html</url>
+      
+        <content type="html"><![CDATA[<h1>Xmind激活亲测有效（23/3/30）</h1><p>下载资源</p><p><img src="https://raw.githubusercontent.com/jack8luo/picture/main/image-20230330095543117.png" alt="image-20230330095543117"></p><p>双击安装包，程序自动安装在C:\Program Files\XMind下</p><p>替换</p><p>C:\Program Files\XMind\resources下的app.asar,打开xmind即可激活。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> XMmid </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> XMind </tag>
             
         </tags>
       
@@ -1520,6 +1460,120 @@
         <tags>
             
             <tag> 海康SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>唠叨</title>
+      <link href="/posts/123456.html"/>
+      <url>/posts/123456.html</url>
+      
+        <content type="html"><![CDATA[<p>开学就研二了，这一年必定在为了毕业秋招的路上奔波吧</p><p>想多了全是问题，做多了全是答案！</p><p>先整理好自己未来要面对问题：</p><p>1、互联网秋招，准备八股文和项目</p><p>2、公务员考试，国考省考等</p><p>3、学习深度学习，为后面毕业论文做准备</p><p>4、软考</p><p>这三件事才是这一年的重点，让自己有核心竞争力！</p><p>学习方案</p><p>回学校以最快方式调整状态，开始学习，6+1形式学习，周六放松玩，周一到周五周日学习。周六复盘。</p><p>想多了全是问题，做多了全是答案！💪</p><p>研二的计划📆：</p><p>1️⃣ 互联网秋招🌐：全武装，准备面试常见的八股文和实战项目！</p><p>2️⃣ 公务员考试🏛️：国考、省考、烟草、电网、事业单位，要了解报考人数和待遇！</p><p>3️⃣ 深度学习🤖：为毕业论文打下坚实基础！</p><p>4️⃣ 软考🖥️：提升自己，不留遗憾！</p><p>🎯这三件事才是这一年的重点，让自己有核心竞争力！</p><p>🌟 学习策略 🌟：</p><p>回到学校，迅速调整状态，戒掉手机，6+1学习法，专注学习6天，给自己放松的1天！每个周六都是放松和复盘的日子。</p><p>宝贝们，新的学期，新的开始，我们一起加油，为未来的自己努力吧！点赞❤️和收藏🔖，与我同行！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>唠叨</title>
+      <link href="/posts/740112.html"/>
+      <url>/posts/740112.html</url>
+      
+        <content type="html"><![CDATA[<p>我们知道重装系统可以解决99%的电脑问题，今天就让我来帮大家成为修电脑大神，以后再也不用找渣男帮修电脑啦！</p><p>首先，我们只需要一个大于8GB的U盘，然后在浏览器中搜索windows，</p><p>制作好u盘启动器之后呢，我们就要正式开始修电脑啦！</p><p>第一步我们要去百度问一下我们电脑是按哪个键进入电脑的BIOS软件的，我已经总结好啦，大家可以对照一下</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230826125505941.png" alt="image-20230826125505941">jv</p><p>然后把u盘插入你要重装系统的电脑里，在开机的时候一直按进入BIOS的键就好啦，</p><p>进入BIOS之后，把我们的u盘作为启动盘就可以啦，只需要移动一下就可以了，</p><p>重新启动之后我们就进入了新的系统里面啦，接下来的设置就就按照个人喜好啦！</p><p>好啦，我的分享就到此结束啦，感觉大家观看，希望大家都能成为电脑大咖！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>redis入门</title>
+      <link href="/posts/fe27148f.html"/>
+      <url>/posts/fe27148f.html</url>
+      
+        <content type="html"><![CDATA[<h1>redis</h1><h2 id="什么是redis？">什么是redis？</h2><p>是基于内存存储的key-value数据库，mysql数据存在磁盘上的，通常一些常用的数据就会用到redis</p><h2 id="redis入门">redis入门</h2><h3 id="redis简介">redis简介</h3><p>一个开源的基于内存来处理缓存数据库，和消息中间件。</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225654292.png" alt="image-20230902225654292"></p><h3 id="redis安装">redis安装</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902225827968.png" alt="image-20230902225827968"></p><p>给redis设置密码保证redis的安全性</p><p>在redis.conf中：</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230039379.png" alt="image-20230902230039379"></p><h3 id="redis服务启动和停止">redis服务启动和停止</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230143734.png" alt="image-20230902230143734"></p><p>给redis设置远程连接</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230303187.png" alt="image-20230902230303187"></p><h2 id="redis的数据类型">redis的数据类型</h2><h3 id="5种数据类型介绍">5种数据类型介绍</h3><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230902230409198.png" alt="image-20230902230409198"></p><h2 id="redis的常用命令">redis的常用命令</h2><p>使用这些命令操作redis的数据。</p><h4 id="string">string</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903104840101.png" alt="image-20230903104840101"></p><h4 id="hash">hash</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105143381.png" alt="image-20230903105143381"></p><h4 id="list">list</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105704703.png" alt="image-20230903105704703"></p><h4 id="set">set</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105838114.png" alt="image-20230903105838114"></p><h4 id="通用命令">通用命令</h4><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903105857816.png" alt="image-20230903105857816"></p><h2 id="java中操作Redis">java中操作Redis</h2><h4 id="Spring-Data-redis">Spring Data redis</h4><p>Spring对redis客户端做了整合，提供了Spring Data Reids，在spring boot项目中提供了对应的接口starter，即spring-boot-starter-data-redis</p><p><img src="C:%5CUsers%5C29133%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230903110450233.png" alt="image-20230903110450233"></p><p>使用redisTamplate操作各种redis数据方法详见：[redis](D:\study_key\postgraduate\JAVA\java\8、黑马程序员瑞吉外卖平台实战开发\瑞吉外卖-资料\4 Redis课程\代码\springdataredis_demo\src\test\java\com\itheima\test\SpringDataRedisTest.java)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>唠叨</title>
+      <link href="/posts/803123.html"/>
+      <url>/posts/803123.html</url>
+      
+        <content type="html"><![CDATA[<p>别对自己的长辈说浮夸的东西</p><p>年龄大的人越是讨厌这些东西，说自己朋友怎么怎么样，自己怎么怎么样</p><p>这些都是不切实际的且惹人讨厌的，对待重要的人最重要的就是真诚。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>唠叨</title>
+      <link href="/posts/941213.html"/>
+      <url>/posts/941213.html</url>
+      
+        <content type="html"><![CDATA[<p>​一个月5000块钱，不多也不少，相比于其他地方，有好的也有坏的。如果我不干，导师一定会杂七杂八的劝我，还可能闹掰。</p><p>​但是，我现在就要做决定，因为合同一旦签了，那就没有反悔的机会了，</p><p>​如果我干，那我这一年一半的时间都在代课中度过，非常的浪费时间，而且准备我需要准备的东西又很难静下心来准备。（我担心我这样迷迷糊糊到了明年下半年就什么都不会了）（研究生是学生阶段，还是以学习为主）（这个工作并不是在学习而是单纯为了赚钱）（虽然老师说要教我东西，但是以这些天的相处来看，并不太可能会教我，因为他有很多自己的事情要做）</p><p>​如果我不干，我要自己在学校安排好自己的学习任务，自己开始学习，继续要爸妈的生活费，生活可能滋润一些，学习压力也会小一些，但是爸妈的压力会大一些。</p><p>​总结：</p><p>干：</p><p>​经济压力小一些，学习压力大一些，</p><p>不干：</p><p>​经济压力大一些，学习压力小一些</p><p>干一年的话到明年6月底，期间要把项目搞好，省考之类的可以会学校再弄，如果干：要自己调整好时间，把代课的精力放小一点，把学习的时间精力留多一些</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>唠叨</title>
+      <link href="/posts/392141.html"/>
+      <url>/posts/392141.html</url>
+      
+        <content type="html"><![CDATA[<h1>昨日消极复盘</h1><p>昨天其实应该是很开心的 ，以为我心心念念的六级考过了，紫玲也考过了科目二，还去吃了肯德基。</p><p>但是，晚上，紫玲责怪我写的信不好，原因是我七夕送了一封吐槽她的信。然后甩下话睡觉去了，留我一个人反思着自己。</p><p>对于这件事情，我有自己的看法：那天晚上，你说想要我写信给你，我没答应，但是我想着还是写一封，所以这封信是那天晚上写的。那上面的“吐槽”的事情其实是对我印象比较深的事情，也是这种事情，让我对你的认识更加深刻，你的形象在我心中也更加生动。当时写这封信并没有想着七夕给你，到了七夕那天，我除了发红包之外，没有想到送什么礼物比较好，所以索性把这封信带上。以为能让你开心。</p><p>所以，我以为好的东西别人可能不会觉得好，以为我不知道别人真正需要的东西。</p><p>经过漫长的熬夜，我也知道自己不能因为这种小事就郁郁不得志，自己不能这么容易被影响。就算受到影响也要及时走出来，想明白了之后可以通过转移注意力来解决，一直郁郁寡欢真的很亏啊。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随口说 </tag>
             
         </tags>
       
@@ -2140,9 +2194,9 @@
       
         <tags>
             
-            <tag> 外挂标签 </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> 外挂标签 </tag>
             
         </tags>
       
